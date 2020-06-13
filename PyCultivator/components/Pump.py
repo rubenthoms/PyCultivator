@@ -20,6 +20,7 @@ class Pump(Component):
         self.in2 = self.registerPin(in2, GPIOPin.Mode.Out)
         ## GPIO pin connected to EN input of the motor driver
         self.en = self.registerPin(en, GPIOPin.Mode.PWM, 1000.0)
+        self.en.start(100)
         ## The current speed of the pump [0-100%]
         self.speed = 100.0
         ## The direction the pump shall pump
