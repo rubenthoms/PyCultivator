@@ -24,10 +24,12 @@
     <Compile Include="components\Component.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="components\Fan.py" />
+    <Compile Include="components\LedLamp.py" />
     <Compile Include="components\Pump.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="components\Relay.py">
+    <Compile Include="components\Valve.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="components\__init__.py">
